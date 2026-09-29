@@ -4,6 +4,7 @@ bower_components/
 .pnp.*
 dist/
 build/
+*.egg-info/
 out/
 target/
 .next/
