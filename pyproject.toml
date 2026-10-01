@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidence-chain"
+version = "0.1.0"
+description = "Offline multi-site immutable evidence chain with SQLite"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Evidence Chain Team" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+evidence-chain = "evidence_chain.cli:main"
+
+[tool.setuptools]
+packages = ["evidence_chain"]

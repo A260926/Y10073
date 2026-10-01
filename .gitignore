@@ -34,3 +34,9 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+
+# editable install metadata
+*.egg-info/
+
+# runtime SQLite database
+instance/
